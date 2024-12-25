@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookAuthorization xmlns="http://www.daisy.org/DRM/2005/BookAuthorization" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:odrld="http://odrl.net/1.1/ODRL-DD" xmlns:odrlx="http://odrl.net/1.1/ODRL-EX" xmlns:xe="http://www.w3.org/2001/04/xmlenc#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.daisy.org/DRM/2005/BookAuthorization AuthObj.xsd">
+  <Issuer uid="archive.org">Internet_Archive</Issuer>
+  <Book uid="gospelflyingspag00hend_745"/>
+  <odrlx:rights>
+    <odrlx:agreement>
+      <odrlx:asset>
+        <odrlx:context>
+          <odrld:uid>gospelflyingspag00hend_745</odrld:uid>
+        </odrlx:context>
+      </odrlx:asset>
+      <odrlx:permission>
+        <odrlx:play/>
+      </odrlx:permission>
+    </odrlx:agreement>
+  </odrlx:rights>
+  <Keys>
+    <ds:KeyInfo>
+      <ds:KeyName>DAISY.us-nls.ntwk-1</ds:KeyName>
+    </ds:KeyInfo>
+    <ContentKey media="text">
+      <xe:EncryptedKey>
+        <xe:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+        <xe:CipherData>
+          <xe:CipherValue>iAfa8lFSJAhOqaQZxZ6IoH2NYRi+6VOW2VukBYJSC6X6sBnFj2/A6eOUBVDcJAVf
+ToKFFbZeSvIHGzlyLIuBCLvhGnJKV+vjvkMIYXMQnAwuvnDZrWCDjB2zlkIf7qwe
+ewfm5pdaToiMIPCCjOuTWFy8AGNsPY4lMZwgnXbegSI=</xe:CipherValue>
+        </xe:CipherData>
+        <xe:CarriedKeyName>aeskey</xe:CarriedKeyName>
+      </xe:EncryptedKey>
+    </ContentKey>
+    <EncryptedRights>
+      <xe:EncryptedKey>
+        <xe:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+        <xe:CipherData>
+          <xe:CipherValue>VC8Tqh9v7G+PGon2xvpPg2583BRUWar4QnDX/fQe9zenZmIAboTBqadOxtFAWJ1r
+Xz7qJyHxkHdjZZulfoFylOoOmmALatt3uRIbimNKkU2RpksBFDuuSQ0hOFDhmD8q
+xrCa2yuQEcveK9C+LpqVx1A/3m60BddOIxdxYoPwHNg=</xe:CipherValue>
+        </xe:CipherData>
+      </xe:EncryptedKey>
+      <xe:EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element">
+        <xe:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+        <xe:CipherData>
+          <xe:CipherValue>z0nfVaIDHCBtDmT7E2nnj3E4zRCSKghd5tkX9rbXHdUnpxqSHowiTDfP+LyxSGxO
+nkG8GN9wpq5CzSfcCv4gDPTdYKWH7LgdV9FyheSwoC6KY85J+iSNW8KVhKHBBzuQ
+iMLamoHRdEUsBypmVwoGk9YlVyhYqH72A56zxYc+gS9xWkTVQV8E6hluWrhshScS
+DfoNhOaHTxcMqYe56rQ10cN/AGznwUl93/RnOzHN2EECjQ4s+0IKdH15AXDQIGs8
+5hQ94mL69fvJNBA1vADI6rsPQJQYWnySVC8tohE7jnELDRF/gyPITlf18+/IKpLY
+fpr9nrWrtkBxI6uo3zUeHE6xu5bP2ndjePFA1a23trIWsSLaDoW7zC2YwTCnfQUV
+dxQxC2R09g1l8Uz6Ii7dDryk34ZK+K9RJJI0WI2kiqsD1cm4VNe6gizDKbYPvIIU</xe:CipherValue>
+        </xe:CipherData>
+      </xe:EncryptedData>
+    </EncryptedRights>
+  </Keys>
+</BookAuthorization>
